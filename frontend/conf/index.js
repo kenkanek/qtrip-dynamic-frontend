@@ -1,9 +1,8 @@
 
-const IP = "3.110.248.227"
-const config = { backendEndpoint: "http://"+ IP +":8082",
-cities: "http://"+ IP +":8082/cities",
-adventure: "http://"+ IP +":8082/adventures",
-detail:  "http://"+ IP +":8082/adventures/detail"};
+const config = { backendEndpoint: "https://qtrip-dynamic-hhtb.onrender.com",
+cities: "https://qtrip-dynamic-hhtb.onrender.com/cities",
+adventure: "https://qtrip-dynamic-hhtb.onrender.com/adventures",
+detail:  "https://qtrip-dynamic-hhtb.onrender.com/adventures/detail"};
 
 
 export default config;
